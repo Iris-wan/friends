@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Friends TV Show</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/friends_favicon.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Gloria Hallelujah' rel='stylesheet'>
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <div class="skip"><a href = "#chandler_main">Skip to Main Content</a></div>
+            <div class="nav-container">
+                <img src="images/Friends_logo.png" alt="Friends Logo" class="logo" id="logo">
+                <div class="menu_bars">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            
+                <!-- Navigation Menu -->
+                <ul class="nav_list">
+                  <li><a href = "index.html">Home</a></li>
+                  <li><a href = "rachel.html">Rachel</a></li>
+                  <li><a href = "monica.html">Monica</a></li>
+                  <li><a href = "phoebe.html">Phoebe</a></li>
+                  <li><a href = "joey.html">Joey</a></li>
+                  <li class="active"><a href = "chandler.html">Chandler</a></li>
+                  <li><a href = "ross.html">Ross</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id = "chandler_main">
+        <h1 id="charName">Chandler Bing</h1>
+
+        <div id="bioSection">
+            <p id="bio">Chandler is known for his sarcastic humor and bad luck in relationships. He works in a job he hates — statistical analysis and data reconfiguration — but later pursues a career in advertising. He marries Monica and they adopt twins.</p>
+        </div>
+
+        <h2>Check out some Fun Facts about Chandler! <br><br><span class="downSign">👇</span></h2>
+
+        <div id="funFactsSection">
+            <div class="button">
+                <button id="button1">Sarcasm King</button>
+                <button id="button2">Mystery Job Title</button>
+                <button id="button3">Secret Softie</button>
+            </div>
+            <div id="funFact1" class="fact">
+                <img class="factImg" src="images/chandler1_laugh.jpeg" alt='Chandler laughing'>
+                <p class="factDesc">Chandler Bing is known for his sarcastic sense of humor. His witty one-liners and sarcastic remarks have made him one of the most memorable characters on Friends.</p>
+            </div>
+            
+            <div id="funFact2" class="fact" style="display: none;">
+                <img class="factImg" src='images/chandler2_job.jpeg' alt='Rachel said Chandler was a transponster'>
+                <p class="factDesc">One of Chandler's job titles is "Statistical Analysis and Data Reconfiguration," a job so mysterious that even his friends have a hard time understanding what he actually does for a living.</p>
+            </div>
+            
+            <div id="funFact3" class="fact" style="display: none;">
+                <img class="factImg" src='images/chandler3_erica.jpeg' alt='Chandler convincing Erica to let them adopt the baby'>
+                <p class="factDesc">Despite his sarcastic exterior, Chandler is shown to be a caring and sensitive friend. His hidden romantic side is revealed in his relationship with Monica, and he becomes a devoted husband and father as the series progresses.</p>
+            </div>
+        </div>
+
+        <div id="videoClipsSection">
+            <h2>Below are some Chandler Moments. Enjoy! <br><br><span class="downSign">👇</span></h2>
+            <div id="moments">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/WdliY7ihtmc?si=9jnztTRqAygYOh_u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/C18yBBjnGr8?si=r7oWyOwrFhjosPNS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/eCZyf5jYsTI?si=rK8P9YwouqV4-W3j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer id = "footer">
+		<p>SI 539 Final Project <br>
+        &copy; 2023 Iris Wang</p>
+	</footer>
+    <script src="js/character.js"></script>
+</body>
+</html>

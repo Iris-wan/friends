@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Friends TV Show</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/friends_favicon.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Gloria Hallelujah' rel='stylesheet'>
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <div class="skip"><a href = "#ross_main">Skip to Main Content</a></div>
+            <div class="nav-container">
+                <img src="images/Friends_logo.png" alt="Friends Logo" class="logo" id="logo">
+                <div class="menu_bars">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            
+                <!-- Navigation Menu -->
+                <ul class="nav_list">
+                  <li><a href = "index.html">Home</a></li>
+                  <li><a href = "rachel.html">Rachel</a></li>
+                  <li><a href = "monica.html">Monica</a></li>
+                  <li><a href = "phoebe.html">Phoebe</a></li>
+                  <li><a href = "joey.html">Joey</a></li>
+                  <li><a href = "chandler.html">Chandler</a></li>
+                  <li class="active"><a href = "ross.html">Ross</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id = "ross_main">
+        <h1 id="charName">Ross Geller</h1>
+
+        <div id="bioSection">
+            <p id="bio">Ross is Monica's older brother and is a paleontologist and later a professor. He faces challenges in his personal life with multiple divorces throughout the series. His on-again, off-again relationship with Rachel is a central storyline in the series.</p>
+        </div>
+
+        <h2>Check out some Fun Facts about Ross! <br><br><span class="downSign">👇</span></h2>
+
+        <div id="funFactsSection">
+            <div class="button">
+                <button id="button1">Paleontology Passion</button>
+                <button id="button2">Divorce Force</button>
+                <button id="button3">Unagi Expert</button>
+            </div>
+            <div id="funFact1" class="fact">
+                <img class="factImg" src="images/ross1_fossil.jpeg" alt='Ross and a dinosaur egg'>
+                <p class="factDesc">Ross Geller is a paleontologist, and his passion for dinosaurs is a recurring theme throughout the series. His enthusiasm for his work often leads to humorous situations.</p>
+            </div>
+            
+            <div id="funFact2" class="fact" style="display: none;">
+                <img class="factImg" src='images/ross2_divorce.jpeg' alt='Sad Ross after getting divorce with Carol'>
+                <p class="factDesc">Ross has been divorced three times during the show's run. His failed marriages to Carol, Emily, and eventually Rachel provide ongoing plotlines and contribute to the humor and drama of the series.</p>
+            </div>
+            
+            <div id="funFact3" class="fact" style="display: none;">
+                <img class="factImg" src='images/ross3_unagi.jpeg' alt='Ross doing his unagi gesture'>
+                <p class="factDesc">Ross claims to have mastered the art of "Unagi," a state of total awareness. This becomes a running joke when he tries to teach Rachel and Phoebe about Unagi self-defense, leading to comedic misunderstandings.</p>
+            </div>
+        </div>
+
+        <div id="videoClipsSection">
+            <h2>Below are some Ross Moments. Enjoy! <br><br><span class="downSign">👇</span></h2>
+            <div id="moments">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/93N7PRkXmac?si=93rcoZLe6dgfdb5L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Y8K2TsyFj7Q?si=8_hApmBDqDNafo1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QXG6NvBRcrI?si=W6gSYz4rM5PGyBvq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Pk6XX_ZFFZM?si=S37OIJVSr0BHdalL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer id = "footer">
+		<p>SI 539 Final Project <br>
+        &copy; 2023 Iris Wang</p>
+	</footer>
+    <script src="js/character.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Friends TV Show</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/friends_favicon.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Gloria Hallelujah' rel='stylesheet'>
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <div class="skip"><a href = "#monica_main">Skip to Main Content</a></div>
+            <div class="nav-container">
+                <img src="images/Friends_logo.png" alt="Friends Logo" class="logo" id="logo">
+                <div class="menu_bars">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            
+                <!-- Navigation Menu -->
+                <ul class="nav_list">
+                  <li><a href = "index.html">Home</a></li>
+                  <li><a href = "rachel.html">Rachel</a></li>
+                  <li class="active"><a href = "monica.html">Monica</a></li>
+                  <li><a href = "phoebe.html">Phoebe</a></li>
+                  <li><a href = "joey.html">Joey</a></li>
+                  <li><a href = "chandler.html">Chandler</a></li>
+                  <li><a href = "ross.html">Ross</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id = "monica_main">
+        <h1 id="charName">Monica Geller</h1>
+
+        <div id="bioSection">
+            <p id="bio">Monica is a competitive perfectionist who's a professional chef. Known for her obsessive cleanliness and control-freak nature, she is the maternal character of the group. She is Ross's younger sister and ends up marrying Chandler Bing.</p>
+        </div>
+
+        <h2>Check out some Fun Facts about Monica! <br><br><span class="downSign">👇</span></h2>
+
+        <div id="funFactsSection">
+            <div class="button">
+                <button id="button1">Cleaning Obsession</button>
+                <button id="button2">Competitive Nature</button>
+                <button id="button3">Formerly Overweight</button>
+            </div>
+            <div id="funFact1" class="fact">
+                <img class="factImg" src="images/monica1_vacuum.jpeg" alt='Monica has a small vacuum to clean her large vacuum'>
+                <p class="factDesc">Monica's obsession with cleaning and organization is a running joke in the series. Her apartment is always spotless, and she can't stand messes. She categorizes her towels into 11 specific groups. She owns a vacuum for her vacuum cleaner.</p>
+            </div>
+            
+            <div id="funFact2" class="fact" style="display: none;">
+                <img class="factImg" src='images/monica2_competitive.png' alt='Monica and Ross fight over the Geller Family Cup'>
+                <p class="factDesc">Monica's competitiveness is legendary, particularly noticeable in episodes where she plays games, notably the trivia game episode where the boys win her apartment.</p>
+            </div>
+            
+            <div id="funFact3" class="fact" style="display: none;">
+                <img class="factImg" src='images/monica3_overweight.jpeg' alt='An image of Monica when she was overweight'>
+                <p class="factDesc">In high school, Monica was overweight. This becomes a recurring theme in the show, and there are occasional references to her struggles with weight and body image.</p>
+            </div>
+        </div>
+
+        <div id="videoClipsSection">
+            <h2>Below are some Monica Moments. Enjoy! <br><br><span class="downSign">👇</span></h2>
+            <div id="moments">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/o-_KcdaFvRM?si=-7BVqsNRr29NnWr_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-nBuch_hKKk?si=JdA-cQ4YVZTDh2e8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/orvkg918gbk?si=v_8mOThTEUPpz_oU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer id = "footer">
+		<p>SI 539 Final Project <br>
+        &copy; 2023 Iris Wang</p>
+	</footer>
+    <script src="js/character.js"></script>
+</body>
+</html>

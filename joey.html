@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Friends TV Show</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/friends_favicon.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Gloria Hallelujah' rel='stylesheet'>
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <div class="skip"><a href = "#joey_main">Skip to Main Content</a></div>
+            <div class="nav-container">
+                <img src="images/Friends_logo.png" alt="Friends Logo" class="logo" id="logo">
+                <div class="menu_bars">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            
+                <!-- Navigation Menu -->
+                <ul class="nav_list">
+                  <li><a href = "index.html">Home</a></li>
+                  <li><a href = "rachel.html">Rachel</a></li>
+                  <li><a href = "monica.html">Monica</a></li>
+                  <li><a href = "phoebe.html">Phoebe</a></li>
+                  <li class="active"><a href = "joey.html">Joey</a></li>
+                  <li><a href = "chandler.html">Chandler</a></li>
+                  <li><a href = "ross.html">Ross</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id = "joey_main">
+        <h1 id="charName">Joey Tribbiani</h1>
+
+        <div id="bioSection">
+            <p id="bio">Joey is a struggling actor known for his love of food and womanizing charm. He is not the brightest, but he is loyal and often the heart of the group. He's also known for his catchphrase, "How you doin'?"</p>
+        </div>
+
+        <h2>Check out some Fun Facts about Joey! <br><br><span class="downSign">👇</span></h2>
+
+        <div id="funFactsSection">
+            <div class="button">
+                <button id="button1">Meatball Mania</button>
+                <button id="button2">Flirting 101</button>
+                <button id="button3">Bromance Alert</button>
+            </div>
+            <div id="funFact1" class="fact">
+                <img class="factImg" src="images/joey1_food.jpeg" alt='Joey does not share food!'>
+                <p class="factDesc">Joey's true love? The meatball sub. It's his go-to comfort food, and if you dare to touch it, be ready for a hilarious lesson in "Joey doesn't share food!"</p>
+            </div>
+            
+            <div id="funFact2" class="fact" style="display: none;">
+                <img class="factImg" src='images/joey2_flirt.jpeg' alt='Joey flirts with Rachel'>
+                <p class="factDesc">Joey's dating wisdom boils down to a simple, "How you doin'?" It might not work in real life, but in Friends, it's the key to his charming and somewhat clueless approach to romance.</p>
+            </div>
+            
+            <div id="funFact3" class="fact" style="display: none;">
+                <img class="factImg" src='images/joey3_chandler.jpeg' alt='Joey is hugging Chandler'>
+                <p class="factDesc">Chandler and Joey's bromance is epic. From the chick and the duck to the iconic recliners, these two redefine friendship goals. Could they BE any funnier?</p>
+            </div>
+        </div>
+
+        <div id="videoClipsSection">
+            <h2>Below are some Joey Moments. Enjoy! <br><br><span class="downSign">👇</span></h2>
+            <div id="moments">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/l3tMnFQMb_U?si=Dv4K9DWCBMreQJrX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zqLQm1rSmwg?si=F0llHaaI3K7ttnOv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pOYfS1HXpKw?si=227aoKY2CKdarihr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VyZ2D4tYTUw?si=DtroAhxSSpFFIz12" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer id = "footer">
+		<p>SI 539 Final Project <br>
+        &copy; 2023 Iris Wang</p>
+	</footer>
+    <script src="js/character.js"></script>
+</body>
+</html>

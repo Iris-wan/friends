@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Friends TV Show</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/friends_favicon.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Gloria Hallelujah' rel='stylesheet'>
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <div class="skip"><a href = "#phoebe_main">Skip to Main Content</a></div>
+            <div class="nav-container">
+                <img src="images/Friends_logo.png" alt="Friends Logo" class="logo" id="logo">
+                <div class="menu_bars">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            
+                <!-- Navigation Menu -->
+                <ul class="nav_list">
+                  <li><a href = "index.html">Home</a></li>
+                  <li><a href = "rachel.html">Rachel</a></li>
+                  <li><a href = "monica.html">Monica</a></li>
+                  <li class="active"><a href = "phoebe.html">Phoebe</a></li>
+                  <li><a href = "joey.html">Joey</a></li>
+                  <li><a href = "chandler.html">Chandler</a></li>
+                  <li><a href = "ross.html">Ross</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id = "phoebe_main">
+        <h1 id="charName">Phoebe Buffay</h1>
+
+        <div id="bioSection">
+            <p id="bio">Phoebe is an eccentric, free-spirited masseuse and musician. She often brings up her tough past casually, and is recognized for her smelly cat song. Her quirky outlook, offbeat wisdom, and bizarre songs make her a fan favorite.</p>
+        </div>
+
+        <h2>Check out some Fun Facts about Phoebe! <br><br><span class="downSign">👇</span></h2>
+
+        <div id="funFactsSection">
+            <div class="button">
+                <button id="button1">Mugged Ross</button>
+                <button id="button2">Smelly Cat Anthem</button>
+                <button id="button3">Birth Mother to Brother's Kids</button>
+            </div>
+            <div id="funFact1" class="fact">
+                <img class="factImg" src="images/phoebe1_mug.jpeg" alt='Phoebe showed Ross that she kept his Science Boy comic in her "crap from the street" box.'>
+                <p class="factDesc">Phoebe once inadvertently mugged Ross as a teenager. When they cross paths many years later, she returns his stolen childhood 'Science Boy' comic.</p>
+            </div>
+            
+            <div id="funFact2" class="fact" style="display: none;">
+                <img class="factImg" src='images/phoebe2_smellyCat.png' alt='Phoebe singing smelly cat'>
+                <p class="factDesc">Phoebe's signature song, "Smelly Cat," becomes a jingle for a stinky cat litter brand. Truly the pinnacle of her musical career!</p>
+            </div>
+            
+            <div id="funFact3" class="fact" style="display: none;">
+                <img class="factImg" src='images/phoebe3_surrogate.jpeg' alt='Phoebe gave birth to the triplets'>
+                <p class="factDesc">Phoebe acted as a surrogate mother for her half-brother's triplets, showing her selfless and caring nature.</p>
+            </div>
+        </div>
+
+        <div id="videoClipsSection">
+            <h2>Below are some Phoebe Moments. Enjoy! <br><br><span class="downSign">👇</span></h2>
+            <div id="moments">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MIPSwnHMmNE?si=QDXqRX37i5j_NAfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TSNmDb5dYBQ?si=X9nT-zrbMU2hZdPK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fa4S1uO5J14?si=0Om9QHDhpkzh5E15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Y2BFCMen7CE?si=VCzWU5BqaIGRH6-a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer id = "footer">
+		<p>SI 539 Final Project <br>
+        &copy; 2023 Iris Wang</p>
+	</footer>
+    <script src="js/character.js"></script>
+</body>
+</html>
