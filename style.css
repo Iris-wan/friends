@@ -3,11 +3,15 @@
 .skip a {
     position: absolute;
     top: -1000px;
+    z-index: 3;
+    color: #000;
+    left: 20px;
+    transition: top 1s ease-out;
 }
 
 /* show the skip to main content link when tabbing */
 .skip a:focus {
-    top: 2%;
+    top: 60px;
 }
 
 #logo {
@@ -183,10 +187,6 @@ main {
     left: 0;
     bottom: -2px; 
     transition: width .3s ease-in-out;
-}
-
-.spotify-embed {
-    border-radius: 12px;
 }
 
 #intro {
@@ -393,11 +393,56 @@ h2 {
         margin: auto;
         max-width: 900px;
     }
+    .skip a:focus {
+        top: 20px;
+    }
 }
 
 /* when the screen is larger than 600px */
 @media(min-width: 1000px) {
     .nav-container {
         flex-direction: row;
+    }
+    .skip a:focus {
+        top: 80px;
+    }
+}
+
+/* when the user prefers reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+    #main {
+        animation: none;
+    }
+    #rachel_main {
+        animation: none;
+    }
+    #monica_main {
+        animation: none;
+    }
+    #phoebe_main {
+        animation: none;
+    }
+    #joey_main {
+        animation: none;
+    }
+    #chandler_main {
+        animation: none;
+    }
+    #ross_main {
+        animation: none;
+    }
+    .character-menu img:hover {
+        transform: none;
+        margin-bottom: 0;
+    }
+    .character-name::after {
+        transition: none;
+    }
+    .character-menu img {
+        margin: 0;
+        transition: none;
+    }
+    .skip a {
+        transition: none;
     }
 }
